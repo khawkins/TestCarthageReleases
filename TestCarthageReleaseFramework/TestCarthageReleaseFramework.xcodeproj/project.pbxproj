@@ -12,6 +12,8 @@
 		823838251D8CA41E0093E6FB /* TestCarthageReleaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 823838171D8CA41E0093E6FB /* TestCarthageReleaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		823838301D8CA5E50093E6FB /* TestPublicClass1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		823838311D8CA5E50093E6FB /* TestPublicClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */; };
+		823838701D8CAE9F0093E6FB /* TestPublicClass2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8238386E1D8CAE9F0093E6FB /* TestPublicClass2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823838711D8CAE9F0093E6FB /* TestPublicClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8238386F1D8CAE9F0093E6FB /* TestPublicClass2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		823838241D8CA41E0093E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPublicClass1.h; sourceTree = "<group>"; };
 		8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPublicClass1.m; sourceTree = "<group>"; };
+		8238386E1D8CAE9F0093E6FB /* TestPublicClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPublicClass2.h; sourceTree = "<group>"; };
+		8238386F1D8CAE9F0093E6FB /* TestPublicClass2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPublicClass2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */,
 				8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */,
+				8238386E1D8CAE9F0093E6FB /* TestPublicClass2.h */,
+				8238386F1D8CAE9F0093E6FB /* TestPublicClass2.m */,
 				823838171D8CA41E0093E6FB /* TestCarthageReleaseFramework.h */,
 				823838181D8CA41E0093E6FB /* Info.plist */,
 			);
@@ -99,6 +105,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823838701D8CAE9F0093E6FB /* TestPublicClass2.h in Headers */,
 				823838301D8CA5E50093E6FB /* TestPublicClass1.h in Headers */,
 				823838251D8CA41E0093E6FB /* TestCarthageReleaseFramework.h in Headers */,
 			);
@@ -202,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823838711D8CAE9F0093E6FB /* TestPublicClass2.m in Sources */,
 				823838311D8CA5E50093E6FB /* TestPublicClass1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
