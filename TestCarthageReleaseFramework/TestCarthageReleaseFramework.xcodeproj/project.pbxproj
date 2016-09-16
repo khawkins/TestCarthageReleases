@@ -10,6 +10,8 @@
 		8238381E1D8CA41E0093E6FB /* TestCarthageReleaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823838141D8CA41E0093E6FB /* TestCarthageReleaseFramework.framework */; };
 		823838231D8CA41E0093E6FB /* TestCarthageReleaseFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823838221D8CA41E0093E6FB /* TestCarthageReleaseFrameworkTests.m */; };
 		823838251D8CA41E0093E6FB /* TestCarthageReleaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 823838171D8CA41E0093E6FB /* TestCarthageReleaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823838301D8CA5E50093E6FB /* TestPublicClass1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */; };
+		823838311D8CA5E50093E6FB /* TestPublicClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		8238381D1D8CA41E0093E6FB /* TestCarthageReleaseFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCarthageReleaseFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		823838221D8CA41E0093E6FB /* TestCarthageReleaseFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCarthageReleaseFrameworkTests.m; sourceTree = "<group>"; };
 		823838241D8CA41E0093E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPublicClass1.h; sourceTree = "<group>"; };
+		8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPublicClass1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		823838161D8CA41E0093E6FB /* TestCarthageReleaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				8238382E1D8CA5E50093E6FB /* TestPublicClass1.h */,
+				8238382F1D8CA5E50093E6FB /* TestPublicClass1.m */,
 				823838171D8CA41E0093E6FB /* TestCarthageReleaseFramework.h */,
 				823838181D8CA41E0093E6FB /* Info.plist */,
 			);
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823838301D8CA5E50093E6FB /* TestPublicClass1.h in Headers */,
 				823838251D8CA41E0093E6FB /* TestCarthageReleaseFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823838311D8CA5E50093E6FB /* TestPublicClass1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

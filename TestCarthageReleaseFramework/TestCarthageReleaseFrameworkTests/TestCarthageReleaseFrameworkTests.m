@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TestPublicClass1.h"
 
 @interface TestCarthageReleaseFrameworkTests : XCTestCase
 
@@ -24,16 +25,10 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testReturnAStringMethod {
+    TestPublicClass1 *tpc1 = [[TestPublicClass1 alloc] init];
+    NSString *returnedString = [tpc1 returnAString];
+    XCTAssertNotNil(returnedString, @"Should return a string");
 }
 
 @end

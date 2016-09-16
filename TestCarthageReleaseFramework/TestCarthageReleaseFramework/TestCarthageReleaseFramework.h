@@ -14,6 +14,4 @@ FOUNDATION_EXPORT double TestCarthageReleaseFrameworkVersionNumber;
 //! Project version string for TestCarthageReleaseFramework.
 FOUNDATION_EXPORT const unsigned char TestCarthageReleaseFrameworkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TestCarthageReleaseFramework/PublicHeader.h>
-
-
+#import <TestCarthageReleaseFramework/TestPublicClass1.h>
