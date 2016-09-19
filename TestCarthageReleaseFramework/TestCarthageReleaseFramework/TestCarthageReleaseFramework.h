@@ -15,3 +15,4 @@ FOUNDATION_EXPORT double TestCarthageReleaseFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestCarthageReleaseFrameworkVersionString[];
 
 #import <TestCarthageReleaseFramework/TestPublicClass1.h>
+#import <TestCarthageReleaseFramework/TestPublicClass2.h>
