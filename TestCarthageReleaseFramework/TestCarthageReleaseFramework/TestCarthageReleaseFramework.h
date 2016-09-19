@@ -16,3 +16,4 @@ FOUNDATION_EXPORT const unsigned char TestCarthageReleaseFrameworkVersionString[
 
 #import <TestCarthageReleaseFramework/TestPublicClass1.h>
 #import <TestCarthageReleaseFramework/TestPublicClass2.h>
+#import <TestCarthageReleaseFramework/TestPublicClass3.h>
