@@ -11,5 +11,6 @@
 @interface TestPublicClass2 : NSObject
 
 - (NSNumber *)returnANumber;
+- (NSDictionary *)returnADictionary;
 
 @end

@@ -14,4 +14,11 @@
     return [NSNumber numberWithUnsignedInteger:arc4random()];
 }
 
+- (NSDictionary *)returnADictionary {
+    NSArray *randomStrings = @[ @"One", @"Two", @"Three" ];
+    NSUInteger stringIdx = arc4random() % randomStrings.count;
+    NSString *stringVal = randomStrings[stringIdx];
+    return @{ stringVal: [NSString stringWithFormat:@"%@_%u", stringVal, arc4random()] };
+}
+
 @end
