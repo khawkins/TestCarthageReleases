@@ -4,4 +4,7 @@
    <FileRef
       location = "group:TestCarthageReleaseFramework/TestCarthageReleaseFramework.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:TestCarthageReleaseFramework2/TestCarthageReleaseFramework2.xcodeproj">
+   </FileRef>
 </Workspace>
